@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://chonash.sharepoint.com/sites/AshishSandbox/SitePages/Home.aspx",
+      "customActions": {
+        "5383560d-0246-489d-8cf9-7b7af148733a": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message from Adobe Analytics SPFX Extension"
+          }
+        }
+      }
+    },
+    "spoAdobeAnalytics": {
+      "pageUrl": "https://contoso.sharepoint.com/sites/mySite/SitePages/myPage.aspx",
+      "customActions": {
+        "5383560d-0246-489d-8cf9-7b7af148733a": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}

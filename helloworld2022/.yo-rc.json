@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": false,
+    "version": "1.14.0",
+    "libraryName": "helloworld-2022-again",
+    "libraryId": "34537237-f087-48c3-97ec-013f48fd44d9",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "helloworld-2022-again",
+    "solutionShortDescription": "helloworld-2022-again description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hello-world-4-ms-600-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/helloWorld4Ms600/HelloWorld4Ms600WebPart.js",
+          "manifest": "./src/webparts/helloWorld4Ms600/HelloWorld4Ms600WebPart.manifest.json"
+        }
+      ]
+    },
+    "my-field-customizer-4-ms-600-field-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/myFieldCustomizer4Ms600/MyFieldCustomizer4Ms600FieldCustomizer.js",
+          "manifest": "./src/extensions/myFieldCustomizer4Ms600/MyFieldCustomizer4Ms600FieldCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HelloWorld4Ms600WebPartStrings": "lib/webparts/helloWorld4Ms600/loc/{locale}.js",
+    "MyFieldCustomizer4Ms600FieldCustomizerStrings": "lib/extensions/myFieldCustomizer4Ms600/loc/{locale}.js"
+  }
+}

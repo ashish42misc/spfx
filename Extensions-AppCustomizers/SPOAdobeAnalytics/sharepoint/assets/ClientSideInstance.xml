@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="SpoAdobeAnalytics"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="5383560d-0246-489d-8cf9-7b7af148733a"
+        Properties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </ClientSideComponentInstance>
+</Elements>

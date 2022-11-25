@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hello-world-again-in-2022-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/helloWorldAgainIn2022/HelloWorldAgainIn2022WebPart.js",
+          "manifest": "./src/webparts/helloWorldAgainIn2022/HelloWorldAgainIn2022WebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HelloWorldAgainIn2022WebPartStrings": "lib/webparts/helloWorldAgainIn2022/loc/{locale}.js"
+  }
+}

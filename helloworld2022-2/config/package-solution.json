@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "hello-world-again-2022-client-side-solution",
+    "id": "7f3b6564-dd95-46b2-86a8-4465588425ab",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.14.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "HelloWorldAgain-2022 description"
+      },
+      "longDescription": {
+        "default": "HelloWorldAgain-2022 description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "hello-world-again-2022 Feature",
+        "description": "The feature that activates elements of the hello-world-again-2022 solution.",
+        "id": "19375ef8-a30c-4939-815f-6dd44849753f",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/hello-world-again-2022.sppkg"
+  }
+}

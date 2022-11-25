@@ -1,0 +1,38 @@
+@import 'variables.scss';
+
+@mixin boxy($size, $color){
+    background-color:$color;
+    height: $size;
+    width: $size;
+}
+
+.sometxt
+{
+    color: $boxColor;
+}
+
+@function fancyColor($modFactor){
+    @return $boxColor*($modFactor/$total);
+
+}
+
+@for $i from 1 through $total{
+    .colorBox#{$i}{
+        @include boxy($boxsize, fancyColor($i) )
+    }
+} 
+
+
+
+
+.rotate {
+    transition-duration: 0.8s;
+    transition-property: transform;
+    overflow:hidden;
+    cursor: pointer;
+}
+
+.rotate:hover {
+    transform:rotate(360deg);
+}
+

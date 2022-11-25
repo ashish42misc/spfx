@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hello-world-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/helloWorld/HelloWorldApplicationCustomizer.js",
+          "manifest": "./src/extensions/helloWorld/HelloWorldApplicationCustomizer.manifest.json"
+        }
+      ]
+    },
+    "helloworldagain-in-2022-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/helloworldagainIn2022/HelloworldagainIn2022WebPart.js",
+          "manifest": "./src/webparts/helloworldagainIn2022/HelloworldagainIn2022WebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HelloWorldApplicationCustomizerStrings": "lib/extensions/helloWorld/loc/{locale}.js",
+    "HelloworldagainIn2022WebPartStrings": "lib/webparts/helloworldagainIn2022/loc/{locale}.js"
+  }
+}

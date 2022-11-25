@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "spo-adobe-analytics-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/spoAdobeAnalytics/SpoAdobeAnalyticsApplicationCustomizer.js",
+          "manifest": "./src/extensions/spoAdobeAnalytics/SpoAdobeAnalyticsApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SpoAdobeAnalyticsApplicationCustomizerStrings": "lib/extensions/spoAdobeAnalytics/loc/{locale}.js"
+  }
+}
